@@ -1,16 +1,55 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
     margin: 0;
     padding: 0;
-    text-align: center;
 }
+
 header {
-    background-color: #333;
+    background: rgba(0, 0, 0, 0.7);
     color: white;
-    padding: 10px;
+    padding: 20px;
+    font-size: 24px;
 }
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
+
+.magic-title {
+    font-weight: bold;
+    color: #ffeb3b;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.option {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+    cursor: pointer;
+}
+
+.option:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.option img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.option h2 {
+    font-size: 18px;
+    color: #333;
 }
