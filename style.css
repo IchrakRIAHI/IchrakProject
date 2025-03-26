@@ -19,14 +19,17 @@ header {
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
 }
 
+/* ✅ Alignement horizontal avec Flexbox */
 .options-container {
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: center;  /* Centre les éléments horizontalement */
+    align-items: center;      /* Aligne verticalement */
+    gap: 30px;               /* Espacement entre les options */
     margin-top: 50px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;         /* Permet le retour à la ligne si l'écran est petit */
 }
 
+/* ✅ Style des options */
 .option {
     background: white;
     padding: 20px;
@@ -43,6 +46,7 @@ header {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* ✅ Ajustement des images */
 .option img {
     width: 100px;
     height: auto;
