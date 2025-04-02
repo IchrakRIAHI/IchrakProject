@@ -85,19 +85,6 @@ a {
     font-size: 20px; /* Taille de police plus grande */
     display: block; /* Affichage en bloc pour mettre les liens l'un sous l'autre */
     margin: 10px 0; /* Espacement entre les liens */
-    color: #ffffff; /* Couleur du texte */
-    background-color: #ff6b81; /* Couleur de fond */
-    padding: 10px 15px; /* Espace autour du texte */
-    text-align: center; /* Centrer le texte */
-    border-radius: 8px; /* Coins arrondis */
-    text-decoration: none; /* Enlever le soulignement */
-    transition: background 0.3s, transform 0.2s;
-}
-
-/* Effet au survol */
-a:hover {
-    background-color: #ff4757; /* Couleur plus foncée au survol */
-    transform: scale(1.05); /* Léger agrandissement */
 }
 
 
@@ -107,4 +94,20 @@ a:hover {
     border: none;
     margin: 0;
     padding: 0;
+}
+
+nav a {
+    font-size: 22px; /* Agrandir le texte */
+    color: #ffffff; /* Texte blanc */
+    text-decoration: none; /* Supprimer le soulignement */
+    padding: 10px 20px; /* Espacement autour du texte */
+    background-color: #ff6b81; /* Couleur de fond du bouton */
+    border-radius: 8px; /* Coins arrondis */
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Effet au survol */
+nav a:hover {
+    background-color: #ff4757; /* Rouge plus foncé */
+    transform: scale(1.1); /* Agrandissement léger */
 }
