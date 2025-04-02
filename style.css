@@ -96,18 +96,26 @@ a {
     padding: 0;
 }
 
+nav {
+    background-color: #333; /* Fond sombre */
+    padding: 10px 20px; /* Espacement autour */
+    display: flex;
+    justify-content: flex-end; /* Aligner à droite */
+    align-items: center;
+}
+
 nav a {
-    font-size: 22px; /* Agrandir le texte */
+    font-size: 18px; /* Réduction de la taille du texte */
     color: #ffffff; /* Texte blanc */
     text-decoration: none; /* Supprimer le soulignement */
-    padding: 10px 20px; /* Espacement autour du texte */
-    background-color: #ff6b81; /* Couleur de fond du bouton */
-    border-radius: 8px; /* Coins arrondis */
+    padding: 8px 15px; /* Espacement réduit */
+    background-color: #ff6b81; /* Couleur du bouton */
+    border-radius: 5px; /* Coins arrondis */
     transition: background 0.3s, transform 0.2s;
 }
 
 /* Effet au survol */
 nav a:hover {
     background-color: #ff4757; /* Rouge plus foncé */
-    transform: scale(1.1); /* Agrandissement léger */
+    transform: scale(1.05); /* Léger zoom */
 }
