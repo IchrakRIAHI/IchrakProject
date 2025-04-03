@@ -96,20 +96,12 @@ a {
     padding: 0;
 }
 
-nav {
-    background-color: #333; /* Fond sombre */
-    padding: 10px 20px; /* Espacement autour */
-    display: flex;
-    justify-content: flex-end; /* Aligner à droite */
-    align-items: center;
-}
-
 nav a {
     font-size: 18px; /* Réduction de la taille du texte */
     color: #ffffff; /* Texte blanc */
     text-decoration: none; /* Supprimer le soulignement */
     padding: 8px 15px; /* Espacement réduit */
-    background-color: #ff6b81; /* Couleur du bouton */
+    background-color: #c96bff; /* Couleur du bouton */
     border-radius: 5px; /* Coins arrondis */
     transition: background 0.3s, transform 0.2s;
 }
