@@ -108,6 +108,6 @@ nav a {
 
 /* Effet au survol */
 nav a:hover {
-    background-color: #ff4757; /* Rouge plus foncé */
+    background-color: #c96bff; /* Rouge plus foncé */
     transform: scale(1.05); /* Léger zoom */
 }
